@@ -1,0 +1,228 @@
+body {
+    background: url(https://img.freepik.com/vetores-gratis/fundo-azul-e-dourado-de-luxo_23-2149329431.jpg?t=st=1727466486~exp=1727470086~hmac=d8eff62e4908ce8666c2f850bec0b3d111f05589868881daf7a29ad772f32056&w=740);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.hd {
+    background-color: rgba(54, 124, 255, 0.7);
+    padding: 2vh;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 8vh;
+    border: 0.3vh solid #000;
+    border-radius: 25%;
+    box-shadow: 0.5vh 0.5vh 0.5vh #1a0177;
+    margin: 2vh;
+    margin-bottom: 0;
+    overflow: hidden;
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hd h1 {
+    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.ld {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 5vw;
+    color: white;
+    width: 30%;
+    background-color: rgba(54, 124, 255, 0.7);
+    border: 0.3vh solid #006ead;
+    border-radius: 1vh;
+    box-shadow: inset 0.5vh 0.5vh 0.5vh #1a0177;
+    overflow: hidden;
+}
+.lde {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    font-size: 5vw;
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.m {
+    width: 15vw;
+    height: 15vh;
+    background: url(https://img.freepik.com/vetores-gratis/fundo-de-tecnologia-abstrato-gradiente_23-2149213766.jpg?t=st=1727466072~exp=1727469672~hmac=e074254831fe36694122eaed84b56ff8d5cd967dc4112aff33a7e46680460d0d&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0.3vh solid #423fff;
+    transition-duration: 0.3s;
+    font-size: 2.5vh;
+    letter-spacing: 0.1vw;
+}
+.m:hover {
+    border-color: #c8c7ff;
+}
+.m h1 {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+.cartas {
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2vh;
+    margin: 2vh;
+}
+.ft {
+    background-color: rgba(54, 124, 255, 0.7);
+    color: white;
+    text-align: center;
+    width: 90%;
+    height: 10vh;
+    border: 0.3vh solid #003b88;
+    border-radius: 1vh;
+    box-shadow: 0.5vh 0.5vh 0.5vh #1a0177;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ld h1 {
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 0.3vh 0.3vh 0.3vh #000;
+    border-bottom: 0.3vh solid #fff;
+    background-color: rgb(35, 80, 163);
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+}
+html {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.palavras {
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vh;
+    justify-items: center;
+    font-size: 3vh;
+    color: rgb(46, 46, 46);
+    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
+    background-color: rgba(11, 75, 170, 0.295);
+    border-radius: 3vh;
+    box-shadow: 0.5vh 0.5vh 0.5vh #2e4b9a;
+    border: 0.3vh solid #006ead;
+}
+.palavras h2 em {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.palavras h2 i {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.btn {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 42, 110, 0.616);
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    border: 0.3vh solid #006ead;
+}
+.btn button {
+    width: 80%;
+    height: 8vh;
+    background-color: #80e472;
+    color: rgb(0, 0, 0);
+    border: 0.3vh solid #1a0177;
+    border-radius: 3vh;
+    box-shadow: 0.5vh 0.5vh 0.5vh #1a0177;
+    transition-duration: 0.3s;
+    font-size: 4vh;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #4caf50;
+}
+.btn button:active {
+    background-color: #3e8e41;
+}
+#timerCt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+#timer {
+    font-size: 4.5vh;
+    color: #fff;
+    text-shadow: -0.3vh 0 black, 0 0.3vh black, 0.3vh 0 black, 0 -0.3vh black;
+}
+#timerCt img {
+    height: 6vh;
+    margin: 1vh;
+}
+
+@keyframes brilho {
+    0% {
+        text-shadow: -0.1vh 0 rgb(45, 250, 97), 0 0.1vh rgb(45, 250, 97), 0.1vh 0 rgb(45, 250, 97), 0 -0.1vh rgb(45, 250, 97);
+    }
+    100% {
+        text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
+    }
+}
+@keyframes err {
+    0% {
+        text-shadow: -0.3vh 0 rgb(250, 45, 45), 0 0.3vh rgb(250, 45, 45), 0.3vh 0 rgb(250, 45, 45), 0 -0.3vh rgb(250, 45, 45);
+    }
+    100% {
+        text-shadow: -0.3vh 0 black, 0 0.3vh black, 0.3vh 0 black, 0 -0.3vh black;
+    }
+}
+@keyframes brilhoe {
+    0% {
+        text-shadow: -0.3vh 0 rgb(45, 250, 97), 0 0.3vh rgb(45, 250, 97), 0.3vh 0 rgb(45, 250, 97), 0 -0.3vh rgb(45, 250, 97);
+    }
+    100% {
+        text-shadow: -0.3vh 0 black, 0 0.3vh black, 0.3vh 0 black, 0 -0.3vh black;
+    }
+}
